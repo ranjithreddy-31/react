@@ -1,4 +1,10 @@
 import './App.css';
+import ErrorBoundary from './components/ErrorBoundary';
+import ErrorHandling from './components/ErrorHandling';
+// import ParentComp from './components/ParentComp';
+//import ParentComp from './components/ParentComp';
+// import Refs from './components/Refs';
+// import Table from './components/Table';
 //import Greet from './components/greet';
 // import { GM } from './components/greet';
 // import Welcome from './components/Welcome';
@@ -11,8 +17,15 @@ import './App.css';
 // import ConditionalRendering from './components/ConditionalRendering';
 // import ListRendering from './components/ListRendering';
 // import StyleSheet from './components/StyleSheet';
-import Form from './components/Form';
+ // import Form from './components/Form';
 //import InlineCSS from './components/InlineCSS';
+// import Mounting from './components/Mounting';
+// import Updating from './components/Updating';
+// import { Fragment } from 'react';
+// import PureComp from './components/PureComp';
+// import FocusInput from './components/focusInput';
+// import FRParentInput from './components/FRParentInput';
+// import PortalDemo from './components/PortalDemo';
 function App() {
   return (
     <div className="App">
@@ -34,7 +47,21 @@ function App() {
          {/* <ListRendering></ListRendering>  */}
          {/* <StyleSheet useCss={true}></StyleSheet> */}
          {/* <InlineCSS></InlineCSS> */}
-        <Form></Form>
+        {/* <Form></Form> */}
+        {/* <Mounting/> */}
+        {/* <Updating></Updating> */}
+        {/* <Fragment></Fragment> */}
+        {/* <Table></Table> */}
+        {/* <PureComp></PureComp> */}
+        {/* <ParentComp></ParentComp> */}
+        {/* <Refs></Refs> */}
+       {/* <FocusInput></FocusInput> */}
+       {/* <FRParentInput></FRParentInput> */}
+       {/* <PortalDemo></PortalDemo> */}
+       <ErrorBoundary>
+        <ErrorHandling name="ranjith"></ErrorHandling>
+        <ErrorHandling name="Joker"></ErrorHandling>
+       </ErrorBoundary>
       </header>
     </div>
   );
