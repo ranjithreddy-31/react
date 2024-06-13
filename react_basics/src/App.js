@@ -1,6 +1,16 @@
 import './App.css';
-import ErrorBoundary from './components/ErrorBoundary';
-import ErrorHandling from './components/ErrorHandling';
+import { Provider } from './components/Context';
+import ContextA from './components/ContextA';
+// import ClickCounter2 from './components/ClickCounter2';
+// import Counterr from './components/Counterr';
+// import HoverCounter2 from './components/HoverCounter2';
+// import ClickCounter2 from './components/ClickCounter2';
+// import HoverCounter2 from './components/HoverCounter2';
+// import User from './components/User';
+// import ClickCounter from './components/ClickCounter';
+// import HoverCounter from './components/HoverCounter';
+// import ErrorBoundary from './components/ErrorBoundary';
+// import ErrorHandling from './components/ErrorHandling';
 // import ParentComp from './components/ParentComp';
 //import ParentComp from './components/ParentComp';
 // import Refs from './components/Refs';
@@ -23,7 +33,7 @@ import ErrorHandling from './components/ErrorHandling';
 // import Updating from './components/Updating';
 // import { Fragment } from 'react';
 // import PureComp from './components/PureComp';
-// import FocusInput from './components/focusInput';
+import FocusInput from './components/focusInput';
 // import FRParentInput from './components/FRParentInput';
 // import PortalDemo from './components/PortalDemo';
 function App() {
@@ -58,10 +68,23 @@ function App() {
        {/* <FocusInput></FocusInput> */}
        {/* <FRParentInput></FRParentInput> */}
        {/* <PortalDemo></PortalDemo> */}
-       <ErrorBoundary>
+       {/* <ErrorBoundary>
         <ErrorHandling name="ranjith"></ErrorHandling>
         <ErrorHandling name="Joker"></ErrorHandling>
-       </ErrorBoundary>
+       </ErrorBoundary> */}
+       {/* <ClickCounter></ClickCounter>
+       <HoverCounter></HoverCounter> */}
+       {/* <ClickCounter2></ClickCounter2>
+       <HoverCounter2></HoverCounter2> */}
+       {/* <User name={(isLoggedIn) => isLoggedIn?"Ranjith":"guest"}></User> */}
+       {/* <Counterr render={(count,incrementCount)=><ClickCounter2 count={count} incrementCount={incrementCount}></ClickCounter2>}></Counterr>
+       <Counterr render={(count,incrementCount)=><HoverCounter2 count={count} incrementCount={incrementCount}></HoverCounter2>}></Counterr> */}
+       {/* <Provider value = "Ranjith">
+       <ContextA></ContextA>
+       </Provider> */}
+       {/* <FocusInput></FocusInput> */}
+
+       <ContextA></ContextA>
       </header>
     </div>
   );
