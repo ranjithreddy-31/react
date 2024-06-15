@@ -1,6 +1,7 @@
 import './App.css';
 import { Provider } from './components/Context';
 import ContextA from './components/ContextA';
+import LifeCycleMethodsPractice from './components/LifeCycleMethodsPractice';
 // import ClickCounter2 from './components/ClickCounter2';
 // import Counterr from './components/Counterr';
 // import HoverCounter2 from './components/HoverCounter2';
@@ -84,7 +85,8 @@ function App() {
        </Provider> */}
        {/* <FocusInput></FocusInput> */}
 
-       <ContextA></ContextA>
+       {/* <ContextA></ContextA> */}
+       <LifeCycleMethodsPractice></LifeCycleMethodsPractice>
       </header>
     </div>
   );
