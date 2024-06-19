@@ -1,11 +1,21 @@
 import './App.css';
 // import ContextA from './components/ContextA';
 import React, { useReducer } from 'react';
+import Test from './components/Test'; 
+// import UserForm from './components/UserForm';
+// import RefHookTimer from './components/RefHookTimer';
+// import RegularCounterCustomHook from './components/RegularCounterCustomHook';
+// import CounterCustomHook from './components/CounterCustomHook';
+// import RegularCounter from './components/RegularCounter';
+// import CounterUseMemo from './components/CounterUseMemo';
+// import FocusInput from './components/FocusInput';
+
 // import CounterTwo from './components/CounterTwo';
 // import Parent from './components/Parent';
-import DataFetchUsingUseState from './components/DataFetchUsingUseState';
-import DataFetchUsingUseReducer from './components/DataFetchUsingUseReducer';
-import FetchPostByID from './components/FetchPostByID';
+// import DataFetchUsingUseState from './components/DataFetchUsingUseState';
+// import DataFetchUsingUseReducer from './components/DataFetchUsingUseReducer';
+// import FetchPostByID from './components/FetchPostByID';
+// import ParentComponent from './components/ParentComponent';
 // import HookMouse from './components/HookMouse';
 // import MouseContainer from './components/MouseContainer';
 // import CounterOne from './components/CounterOne';
@@ -69,7 +79,16 @@ function App() {
         </CounterContext.Provider>
         <DataFetchUsingUseState></DataFetchUsingUseState>*/}
         {/* <DataFetchUsingUseReducer></DataFetchUsingUseReducer> */}
-        <FetchPostByID></FetchPostByID>
+        {/* <FetchPostByID></FetchPostByID> */}
+        {/* <ParentComponent></ParentComponent> */}
+        {/* <CounterUseMemo></CounterUseMemo> */}
+        {/* <FocusInput></FocusInput> */}
+        {/* <RefHookTimer></RefHookTimer> */}
+        {/* <RegularCounterCustomHook></RegularCounterCustomHook>
+        <CounterCustomHook></CounterCustomHook> */}
+        {/* <RegularCounter></RegularCounter> */}
+        {/* <UserForm></UserForm> */}
+        <Test></Test>
       </header>
     </div>
   );
